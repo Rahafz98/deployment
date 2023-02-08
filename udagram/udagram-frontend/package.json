@@ -10,8 +10,7 @@
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "test": "ng test --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "npm:version":"npm install node@16.13.0"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
