@@ -12,7 +12,7 @@ jobs:
       - image: "cimg/node:14.15"
     steps:
       # install node and checkout code
-         - run:
+      - run:
           name: Install node
           command: npm run npm:v
       - checkout
