@@ -12,6 +12,6 @@
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy",
-        "npm:v" :"npm install node@16.13.0"
+        "npm:v" :"cd udagram/udagram-frontend && npm:version"
     }
 }
